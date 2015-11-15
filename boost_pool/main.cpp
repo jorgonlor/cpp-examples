@@ -55,6 +55,7 @@ int main(int argc, char **argv)
     
 	return 0;
 }  // Pool ints are automatically deallocated here when destructing the pool
+   // Pool As destructors are automatically called here before deallocation
 
 // Obtained output:
 // Pool time: 0.14
